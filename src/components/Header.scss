@@ -1,0 +1,24 @@
+#header {
+  background-color: #f7fcfb;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  .app-header {
+    font-size: 30px;
+    font-weight: 300;
+    font-stretch: condensed;
+    letter-spacing: 9px;
+  }
+  .sub-header {
+    color: #31a893;
+  }
+  .seperator {
+    border-bottom: 1px solid #d7d7d7;
+  }
+  .u {
+    color: #31a893;
+  }
+}

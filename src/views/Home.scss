@@ -1,0 +1,23 @@
+#home {
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-div {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    margin: 20px auto;
+    height: 100%;
+    background: linear-gradient(90deg, #ffc0cb 50%, white 50%);
+    .product-header {
+      padding: 20px 0 0 40px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      width: 60%;
+      line-height: 0.7em;
+    }
+  }
+}
